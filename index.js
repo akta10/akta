@@ -54,7 +54,7 @@ const init = async (client) => {
         console.log("============================\n")
         
         console.log(getNowFormatDate(), "Waiting 10 seconds...");
-        await delay(10000);
+        await delay(60000);
 
         let userbalance = await client.Balance();
         if (userbalance.USDC.available > 5) {
