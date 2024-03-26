@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const backpack_client_1 = require("./backpack_client");
 
 /// EDIT HERE ///
-const API_KEY = "IUiXjx+DCon2KZJ/xxxxxxxxxxxxxxxxxxxxx+A="
-const API_SECRET = "mHByUM48jVUGxxxxxxxxxxxxxxxxxxxxxxxx="
+const API_KEY = "5uzqfZ8hgcaN3XNazEEWm2nzboNWCjX1AuaxphpF8N4="
+const API_SECRET = "SAOpnzXhAh19CKa7F88MHwk/ZRB1CtSPBqmgcGEhbbg="
 /////////////
 
 function delay(ms) {
