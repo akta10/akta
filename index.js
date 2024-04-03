@@ -53,8 +53,8 @@ const init = async (client) => {
         console.log(`Total Buy: ${successbuy} | Total Sell: ${sellbuy}`);
         console.log("============================\n")
         
-        console.log(getNowFormatDate(), "Waiting 10 seconds...");
-        await delay(60000);
+        console.log(getNowFormatDate(), "Waiting 30 seconds...");
+        await delay(30000);
 
         let userbalance = await client.Balance();
         if (userbalance.USDC.available > 5) {
